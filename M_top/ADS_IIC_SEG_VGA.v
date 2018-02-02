@@ -10,7 +10,7 @@
 *****************************************************************************/
 module ADS_IIC_SEG_VGA (clk, rst_n, key_in, key_seg, seg, sel, sda, scl, hsync, vsync, DATA);
 
-    //------------外部输入-----------------
+    //------------外部输入------------------
     input             clk;
     input             rst_n;
     input             key_in;
