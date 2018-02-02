@@ -1,0 +1,45 @@
+`timescale 1 ns/ 1 ns
+module IIC_vlg_tst();
+    reg clk;
+    reg rst_n;
+    
+    // wires                                               
+    wire [15:0]  data;
+    wire scl;
+    wire sda;
+    
+    /*
+    编写测试模块时,对于inout类型的端口,需要定义成wire类型变量,而其它输入端口都定义成reg类型,这两者是有区别的. 
+双向端口用作输入时,需要赋值给端口,其余情况可以断开.此时可以用assign语句实现,在测试模块中赋值.另外,可以设置一
+个输出端口观察端口用作输出的情况
+    */
+    wire sda_o;
+    reg treg_sda;
+    reg link;
+    assign sda   =   link  ? treg_sda : 1'bz;  //inout 端口用作输入时，赋值给端口即可，其余情况断开link
+    assign sda_o = (!link) ? sda      : 1'bz;  //设置一个输出端口观察端口用作输出的情况
+    
+    IIC i1 (
+        .clk(clk),
+        .data(data),
+        .rst_n(rst_n),
+        .scl(scl),
+        .sda(sda)
+    );
+    initial                                                
+        begin 
+                        clk = 1'b0;
+                        rst_n = 1'b1;
+                        link = 0;
+            #20         rst_n = 1'b0;
+            #20         rst_n = 1'b1;
+            #51380      link = 1;
+                        treg_sda = 1'b0;
+            #20         link = 0;
+            
+            
+        end                                                    
+    always  #10 clk = ~clk;                                            
+       
+endmodule
+

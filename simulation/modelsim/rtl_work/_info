@@ -1,0 +1,318 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\yl\Desktop\IIC\ADS_IIC_SEG_VGA\simulation\modelsim
+vADS_IIC_SEG_VGA
+IZ]V7A;SFP9@OBNg9<2^662
+VK<W5fX]1EXoXOMoWfm7d@2
+Z1 dC:\Users\yl\Desktop\IIC\ADS_IIC_SEG_VGA\simulation\modelsim
+w1516350318
+8C:/Users/yl/Desktop/IIC/ADS_IIC_SEG_VGA/M_top/ADS_IIC_SEG_VGA.v
+FC:/Users/yl/Desktop/IIC/ADS_IIC_SEG_VGA/M_top/ADS_IIC_SEG_VGA.v
+L0 11
+Z2 OV;L;10.1b;51
+r1
+31
+Z3 o-vlog01compat -work work -O0
+n@a@d@s_@i@i@c_@s@e@g_@v@g@a
+!i10b 1
+!s100 c2`gHT6GJF?bdfnJXL3A;1
+!s85 0
+!s108 1516424387.869000
+!s107 C:/Users/yl/Desktop/IIC/ADS_IIC_SEG_VGA/M_top/ADS_IIC_SEG_VGA.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/yl/Desktop/IIC/ADS_IIC_SEG_VGA/M_top|C:/Users/yl/Desktop/IIC/ADS_IIC_SEG_VGA/M_top/ADS_IIC_SEG_VGA.v|
+!s101 -O0
+!s92 -vlog01compat -work work +incdir+C:/Users/yl/Desktop/IIC/ADS_IIC_SEG_VGA/M_top -O0
+vBIN_TO_BCD
+Ib`g[hoSnVXl<h=83:OoEd2
+VMdn699^02Po:VjzPKV[mZ3
+R1
+w1516418300
+8C:/Users/yl/Desktop/IIC/ADS_IIC_SEG_VGA/M_bin_to_bcd/BIN_TO_BCD.v
+FC:/Users/yl/Desktop/IIC/ADS_IIC_SEG_VGA/M_bin_to_bcd/BIN_TO_BCD.v
+L0 10
+R2
+r1
+31
+R3
+Z4 !s92 -vlog01compat -work work +incdir+C:/Users/yl/Desktop/IIC/ADS_IIC_SEG_VGA/M_bin_to_bcd -O0
+n@b@i@n_@t@o_@b@c@d
+!i10b 1
+!s100 zicn?8S5=UB`8S;D;Zm[P0
+!s85 0
+!s108 1516424387.735000
+!s107 C:/Users/yl/Desktop/IIC/ADS_IIC_SEG_VGA/M_bin_to_bcd/BIN_TO_BCD.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/yl/Desktop/IIC/ADS_IIC_SEG_VGA/M_bin_to_bcd|C:/Users/yl/Desktop/IIC/ADS_IIC_SEG_VGA/M_bin_to_bcd/BIN_TO_BCD.v|
+!s101 -O0
+vCMP
+IRGObDbF1E]UKZ>UT<YCBz2
+VidI[gNi=5@OAMg9X>DDZ53
+R1
+w1516334681
+8C:/Users/yl/Desktop/IIC/ADS_IIC_SEG_VGA/M_bin_to_bcd/CMP.v
+FC:/Users/yl/Desktop/IIC/ADS_IIC_SEG_VGA/M_bin_to_bcd/CMP.v
+L0 11
+R2
+r1
+31
+R3
+R4
+n@c@m@p
+!i10b 1
+!s100 X@kHSh:?AE:4F[cTefn2F0
+!s85 0
+!s108 1516424387.587000
+!s107 C:/Users/yl/Desktop/IIC/ADS_IIC_SEG_VGA/M_bin_to_bcd/CMP.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/yl/Desktop/IIC/ADS_IIC_SEG_VGA/M_bin_to_bcd|C:/Users/yl/Desktop/IIC/ADS_IIC_SEG_VGA/M_bin_to_bcd/CMP.v|
+!s101 -O0
+vDATA
+Im9NeJj^[IlD2fiD?Tegng1
+V1PGL:b`ee9SGF:35E=4Xc0
+R1
+w1515907774
+8C:/Users/yl/Desktop/IIC/ADS_IIC_SEG_VGA/M_vga/DATA.v
+FC:/Users/yl/Desktop/IIC/ADS_IIC_SEG_VGA/M_vga/DATA.v
+L0 12
+R2
+r1
+31
+R3
+Z5 !s92 -vlog01compat -work work +incdir+C:/Users/yl/Desktop/IIC/ADS_IIC_SEG_VGA/M_vga -O0
+n@d@a@t@a
+!i10b 1
+!s100 `DX[i4N;EZ7<bAEK=eQ6B0
+!s85 0
+!s108 1516424388.913000
+!s107 C:/Users/yl/Desktop/IIC/ADS_IIC_SEG_VGA/M_vga/DATA.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/yl/Desktop/IIC/ADS_IIC_SEG_VGA/M_vga|C:/Users/yl/Desktop/IIC/ADS_IIC_SEG_VGA/M_vga/DATA.v|
+!s101 -O0
+vFRE_DIV
+I;0`4N0b4J427bE<]X=U>50
+Vc5`HacVO6]VN_BPmaMA]L1
+R1
+w1515725671
+8C:/Users/yl/Desktop/IIC/ADS_IIC_SEG_VGA/M_seg7/FRE_DIV.v
+FC:/Users/yl/Desktop/IIC/ADS_IIC_SEG_VGA/M_seg7/FRE_DIV.v
+L0 11
+R2
+r1
+31
+R3
+Z6 !s92 -vlog01compat -work work +incdir+C:/Users/yl/Desktop/IIC/ADS_IIC_SEG_VGA/M_seg7 -O0
+n@f@r@e_@d@i@v
+!i10b 1
+!s100 o0__P@?<QKIlT5WzPdam40
+!s85 0
+!s108 1516424388.299000
+!s107 C:/Users/yl/Desktop/IIC/ADS_IIC_SEG_VGA/M_seg7/FRE_DIV.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/yl/Desktop/IIC/ADS_IIC_SEG_VGA/M_seg7|C:/Users/yl/Desktop/IIC/ADS_IIC_SEG_VGA/M_seg7/FRE_DIV.v|
+!s101 -O0
+vIIC
+IafAkjEAja=eHl68i>P`Qc2
+V]JmWa]KjSn6ODVSBOJo?20
+R1
+w1516078707
+8C:/Users/yl/Desktop/IIC/ADS_IIC_SEG_VGA/M_iic/IIC.v
+FC:/Users/yl/Desktop/IIC/ADS_IIC_SEG_VGA/M_iic/IIC.v
+L0 22
+R2
+r1
+31
+R3
+n@i@i@c
+!i10b 1
+!s100 DKMNNA5A_HRVZIfo]a`VQ1
+!s85 0
+!s108 1516424388.006000
+!s107 C:/Users/yl/Desktop/IIC/ADS_IIC_SEG_VGA/M_iic/IIC.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/yl/Desktop/IIC/ADS_IIC_SEG_VGA/M_iic|C:/Users/yl/Desktop/IIC/ADS_IIC_SEG_VGA/M_iic/IIC.v|
+!s101 -O0
+!s92 -vlog01compat -work work +incdir+C:/Users/yl/Desktop/IIC/ADS_IIC_SEG_VGA/M_iic -O0
+vKEY
+Izz<PR0ePB3Of8ZoOUVJb23
+VjUn9dgLmglGPhMmn>?EmE3
+R1
+w1516334722
+8C:/Users/yl/Desktop/IIC/ADS_IIC_SEG_VGA/M_vga/KEY.v
+FC:/Users/yl/Desktop/IIC/ADS_IIC_SEG_VGA/M_vga/KEY.v
+L0 12
+R2
+r1
+31
+R3
+n@k@e@y
+R5
+!i10b 1
+!s100 4S9F5<hOhj@E>n6<@Lbf<1
+!s85 0
+!s108 1516424388.575000
+!s107 C:/Users/yl/Desktop/IIC/ADS_IIC_SEG_VGA/M_vga/KEY.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/yl/Desktop/IIC/ADS_IIC_SEG_VGA/M_vga|C:/Users/yl/Desktop/IIC/ADS_IIC_SEG_VGA/M_vga/KEY.v|
+!s101 -O0
+vpll
+IXA4S^fLzEeXhNijkmVjRK0
+VCQ@RKDnKeUOcac:e:FTSF0
+R1
+w1515907665
+8C:/Users/yl/Desktop/IIC/ADS_IIC_SEG_VGA/M_ip/pll.v
+FC:/Users/yl/Desktop/IIC/ADS_IIC_SEG_VGA/M_ip/pll.v
+L0 25
+R2
+r1
+31
+R3
+!i10b 1
+!s100 g54>P0Z]9PWD9b`JIGM@62
+!s85 0
+!s108 1516424389.066000
+!s107 C:/Users/yl/Desktop/IIC/ADS_IIC_SEG_VGA/M_ip/pll.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/yl/Desktop/IIC/ADS_IIC_SEG_VGA/M_ip|C:/Users/yl/Desktop/IIC/ADS_IIC_SEG_VGA/M_ip/pll.v|
+!s101 -O0
+!s92 -vlog01compat -work work +incdir+C:/Users/yl/Desktop/IIC/ADS_IIC_SEG_VGA/M_ip -O0
+vpll_altpll
+IRA;Do`4EoB5SWK26oR@ZN2
+V?DF8j=RJ_EcKZlDzF;fMW0
+R1
+w1515912401
+8C:/Users/yl/Desktop/IIC/ADS_IIC_SEG_VGA/db/pll_altpll.v
+FC:/Users/yl/Desktop/IIC/ADS_IIC_SEG_VGA/db/pll_altpll.v
+L0 30
+R2
+r1
+31
+R3
+!i10b 1
+!s100 Ael_82^F`anzekEi_HDWI2
+!s85 0
+!s108 1516424389.357000
+!s107 C:/Users/yl/Desktop/IIC/ADS_IIC_SEG_VGA/db/pll_altpll.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/yl/Desktop/IIC/ADS_IIC_SEG_VGA/db|C:/Users/yl/Desktop/IIC/ADS_IIC_SEG_VGA/db/pll_altpll.v|
+!s101 -O0
+!s92 -vlog01compat -work work +incdir+C:/Users/yl/Desktop/IIC/ADS_IIC_SEG_VGA/db -O0
+vSEG7
+I>Yz0Sa]@:KQJO1fbgem=d3
+V3^W@G=0EHmP7dVod3AfO=1
+R1
+w1516418643
+8C:/Users/yl/Desktop/IIC/ADS_IIC_SEG_VGA/M_seg7/SEG7.v
+FC:/Users/yl/Desktop/IIC/ADS_IIC_SEG_VGA/M_seg7/SEG7.v
+L0 11
+R2
+r1
+31
+R3
+n@s@e@g7
+R6
+!i10b 1
+!s100 z?]F`022g;ccZ09DbL3AE1
+!s85 0
+!s108 1516424388.160000
+!s107 C:/Users/yl/Desktop/IIC/ADS_IIC_SEG_VGA/M_seg7/SEG7.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/yl/Desktop/IIC/ADS_IIC_SEG_VGA/M_seg7|C:/Users/yl/Desktop/IIC/ADS_IIC_SEG_VGA/M_seg7/SEG7.v|
+!s101 -O0
+vSEG7_TOP
+IF6MbYm:^bDFbhcoFNh1mc2
+VQ8dGQ8nMJb:NBclCgKkiC1
+R1
+w1516352362
+8C:/Users/yl/Desktop/IIC/ADS_IIC_SEG_VGA/M_seg7/SEG7_TOP.v
+FC:/Users/yl/Desktop/IIC/ADS_IIC_SEG_VGA/M_seg7/SEG7_TOP.v
+L0 11
+R2
+r1
+31
+R3
+R6
+n@s@e@g7_@t@o@p
+!i10b 1
+!s100 H2_iUmB3Pn[VjaejZ25b^2
+!s85 0
+!s108 1516424388.435000
+!s107 C:/Users/yl/Desktop/IIC/ADS_IIC_SEG_VGA/M_seg7/SEG7_TOP.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/yl/Desktop/IIC/ADS_IIC_SEG_VGA/M_seg7|C:/Users/yl/Desktop/IIC/ADS_IIC_SEG_VGA/M_seg7/SEG7_TOP.v|
+!s101 -O0
+vSEG7_TOP_vlg_tst
+!i10b 1
+!s100 OIKjLES9`2UoOi;:[W2`e1
+IF4c<]chB14^fjmTAUHb6k0
+VIM0WjO4NJOzX21OBS_<QQ2
+R1
+w1515911374
+8C:/Users/yl/Desktop/IIC/ADS_IIC_SEG_VGA/simulation/modelsim/SEG7_TOP_tb.vt
+FC:/Users/yl/Desktop/IIC/ADS_IIC_SEG_VGA/simulation/modelsim/SEG7_TOP_tb.vt
+L0 2
+R2
+r1
+!s85 0
+31
+!s108 1516424389.504000
+!s107 C:/Users/yl/Desktop/IIC/ADS_IIC_SEG_VGA/simulation/modelsim/SEG7_TOP_tb.vt|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/yl/Desktop/IIC/ADS_IIC_SEG_VGA/simulation/modelsim|C:/Users/yl/Desktop/IIC/ADS_IIC_SEG_VGA/simulation/modelsim/SEG7_TOP_tb.vt|
+!s101 -O0
+R3
+!s92 -vlog01compat -work work +incdir+C:/Users/yl/Desktop/IIC/ADS_IIC_SEG_VGA/simulation/modelsim -O0
+n@s@e@g7_@t@o@p_vlg_tst
+vSHIFT
+IYK4l@69Wo4cW3>m]nhA1c2
+V<GCc5djX^9L[@mUSI;N:K1
+R1
+w1516369093
+8C:/Users/yl/Desktop/IIC/ADS_IIC_SEG_VGA/M_bin_to_bcd/SHIFT.v
+FC:/Users/yl/Desktop/IIC/ADS_IIC_SEG_VGA/M_bin_to_bcd/SHIFT.v
+L0 11
+R2
+r1
+31
+R3
+n@s@h@i@f@t
+R4
+!i10b 1
+!s100 OImdf]ROWB668LL4imOm:2
+!s85 0
+!s108 1516424387.455000
+!s107 C:/Users/yl/Desktop/IIC/ADS_IIC_SEG_VGA/M_bin_to_bcd/SHIFT.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/yl/Desktop/IIC/ADS_IIC_SEG_VGA/M_bin_to_bcd|C:/Users/yl/Desktop/IIC/ADS_IIC_SEG_VGA/M_bin_to_bcd/SHIFT.v|
+!s101 -O0
+vVGA
+ICXNZ5HYi4>C`9jdLjJaMm1
+VA7@FcM;lgh;LX>;6B8Hg^1
+R1
+w1515742601
+8C:/Users/yl/Desktop/IIC/ADS_IIC_SEG_VGA/M_vga/VGA.v
+FC:/Users/yl/Desktop/IIC/ADS_IIC_SEG_VGA/M_vga/VGA.v
+L0 12
+R2
+r1
+31
+R3
+R5
+n@v@g@a
+!i10b 1
+!s100 mkC0nd<Ja?i2N<c;E:;:22
+!s85 0
+!s108 1516424388.717000
+!s107 C:/Users/yl/Desktop/IIC/ADS_IIC_SEG_VGA/M_vga/VGA.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/yl/Desktop/IIC/ADS_IIC_SEG_VGA/M_vga|C:/Users/yl/Desktop/IIC/ADS_IIC_SEG_VGA/M_vga/VGA.v|
+!s101 -O0
+vVGA_TOP
+Izdb2??IdzJ5<eW1N>H4=@1
+V_fPCeU]?@MS`RWk3ZF?o92
+R1
+w1516325568
+8C:/Users/yl/Desktop/IIC/ADS_IIC_SEG_VGA/M_vga/VGA_TOP.v
+FC:/Users/yl/Desktop/IIC/ADS_IIC_SEG_VGA/M_vga/VGA_TOP.v
+L0 11
+R2
+r1
+31
+R3
+R5
+n@v@g@a_@t@o@p
+!i10b 1
+!s100 2?:F;m;U5U1;R`iAfL`RW0
+!s85 0
+!s108 1516424389.212000
+!s107 C:/Users/yl/Desktop/IIC/ADS_IIC_SEG_VGA/M_vga/VGA_TOP.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/yl/Desktop/IIC/ADS_IIC_SEG_VGA/M_vga|C:/Users/yl/Desktop/IIC/ADS_IIC_SEG_VGA/M_vga/VGA_TOP.v|
+!s101 -O0

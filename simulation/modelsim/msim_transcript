@@ -1,0 +1,126 @@
+# Reading D:/0-software/0-Quartus_II_12.1/modelsim_ase/tcl/vsim/pref.tcl 
+# do ADS_IIC_SEG_VGA_run_msim_rtl_verilog.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying D:\0-software\0-Quartus_II_12.1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied D:\0-software\0-Quartus_II_12.1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/yl/Desktop/IIC/ADS_IIC_SEG_VGA/M_bin_to_bcd {C:/Users/yl/Desktop/IIC/ADS_IIC_SEG_VGA/M_bin_to_bcd/SHIFT.v}
+# Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+# -- Compiling module SHIFT
+# 
+# Top level modules:
+# 	SHIFT
+# vlog -vlog01compat -work work +incdir+C:/Users/yl/Desktop/IIC/ADS_IIC_SEG_VGA/M_bin_to_bcd {C:/Users/yl/Desktop/IIC/ADS_IIC_SEG_VGA/M_bin_to_bcd/CMP.v}
+# Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+# -- Compiling module CMP
+# 
+# Top level modules:
+# 	CMP
+# vlog -vlog01compat -work work +incdir+C:/Users/yl/Desktop/IIC/ADS_IIC_SEG_VGA/M_bin_to_bcd {C:/Users/yl/Desktop/IIC/ADS_IIC_SEG_VGA/M_bin_to_bcd/BIN_TO_BCD.v}
+# Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+# -- Compiling module BIN_TO_BCD
+# 
+# Top level modules:
+# 	BIN_TO_BCD
+# vlog -vlog01compat -work work +incdir+C:/Users/yl/Desktop/IIC/ADS_IIC_SEG_VGA/M_top {C:/Users/yl/Desktop/IIC/ADS_IIC_SEG_VGA/M_top/ADS_IIC_SEG_VGA.v}
+# Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+# -- Compiling module ADS_IIC_SEG_VGA
+# 
+# Top level modules:
+# 	ADS_IIC_SEG_VGA
+# vlog -vlog01compat -work work +incdir+C:/Users/yl/Desktop/IIC/ADS_IIC_SEG_VGA/M_iic {C:/Users/yl/Desktop/IIC/ADS_IIC_SEG_VGA/M_iic/IIC.v}
+# Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+# -- Compiling module IIC
+# 
+# Top level modules:
+# 	IIC
+# vlog -vlog01compat -work work +incdir+C:/Users/yl/Desktop/IIC/ADS_IIC_SEG_VGA/M_seg7 {C:/Users/yl/Desktop/IIC/ADS_IIC_SEG_VGA/M_seg7/SEG7.v}
+# Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+# -- Compiling module SEG7
+# 
+# Top level modules:
+# 	SEG7
+# vlog -vlog01compat -work work +incdir+C:/Users/yl/Desktop/IIC/ADS_IIC_SEG_VGA/M_seg7 {C:/Users/yl/Desktop/IIC/ADS_IIC_SEG_VGA/M_seg7/FRE_DIV.v}
+# Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+# -- Compiling module FRE_DIV
+# 
+# Top level modules:
+# 	FRE_DIV
+# vlog -vlog01compat -work work +incdir+C:/Users/yl/Desktop/IIC/ADS_IIC_SEG_VGA/M_seg7 {C:/Users/yl/Desktop/IIC/ADS_IIC_SEG_VGA/M_seg7/SEG7_TOP.v}
+# Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+# -- Compiling module SEG7_TOP
+# 
+# Top level modules:
+# 	SEG7_TOP
+# vlog -vlog01compat -work work +incdir+C:/Users/yl/Desktop/IIC/ADS_IIC_SEG_VGA/M_vga {C:/Users/yl/Desktop/IIC/ADS_IIC_SEG_VGA/M_vga/KEY.v}
+# Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+# -- Compiling module KEY
+# 
+# Top level modules:
+# 	KEY
+# vlog -vlog01compat -work work +incdir+C:/Users/yl/Desktop/IIC/ADS_IIC_SEG_VGA/M_vga {C:/Users/yl/Desktop/IIC/ADS_IIC_SEG_VGA/M_vga/VGA.v}
+# Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+# -- Compiling module VGA
+# 
+# Top level modules:
+# 	VGA
+# vlog -vlog01compat -work work +incdir+C:/Users/yl/Desktop/IIC/ADS_IIC_SEG_VGA/M_vga {C:/Users/yl/Desktop/IIC/ADS_IIC_SEG_VGA/M_vga/DATA.v}
+# Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+# -- Compiling module DATA
+# 
+# Top level modules:
+# 	DATA
+# vlog -vlog01compat -work work +incdir+C:/Users/yl/Desktop/IIC/ADS_IIC_SEG_VGA/M_ip {C:/Users/yl/Desktop/IIC/ADS_IIC_SEG_VGA/M_ip/pll.v}
+# Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+# -- Compiling module pll
+# 
+# Top level modules:
+# 	pll
+# vlog -vlog01compat -work work +incdir+C:/Users/yl/Desktop/IIC/ADS_IIC_SEG_VGA/M_vga {C:/Users/yl/Desktop/IIC/ADS_IIC_SEG_VGA/M_vga/VGA_TOP.v}
+# Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+# -- Compiling module VGA_TOP
+# 
+# Top level modules:
+# 	VGA_TOP
+# vlog -vlog01compat -work work +incdir+C:/Users/yl/Desktop/IIC/ADS_IIC_SEG_VGA/db {C:/Users/yl/Desktop/IIC/ADS_IIC_SEG_VGA/db/pll_altpll.v}
+# Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+# -- Compiling module pll_altpll
+# 
+# Top level modules:
+# 	pll_altpll
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/yl/Desktop/IIC/ADS_IIC_SEG_VGA/simulation/modelsim {C:/Users/yl/Desktop/IIC/ADS_IIC_SEG_VGA/simulation/modelsim/SEG7_TOP_tb.vt}
+# Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+# -- Compiling module SEG7_TOP_vlg_tst
+# 
+# Top level modules:
+# 	SEG7_TOP_vlg_tst
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs="+acc"  SEG7_TOP_vlg_tst
+# vsim -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs=\"+acc\" -t 1ps SEG7_TOP_vlg_tst 
+# Loading work.SEG7_TOP_vlg_tst
+# Loading work.SEG7_TOP
+# Loading work.KEY
+# Loading work.FRE_DIV
+# Loading work.SEG7
+# Loading work.BIN_TO_BCD
+# Loading work.SHIFT
+# Loading work.CMP
+# ** Warning: (vsim-3017) C:/Users/yl/Desktop/IIC/ADS_IIC_SEG_VGA/simulation/modelsim/SEG7_TOP_tb.vt(15): [TFMPC] - Too few port connections. Expected 6, found 5.
+# 
+#         Region: /SEG7_TOP_vlg_tst/i1
+# ** Warning: (vsim-3722) C:/Users/yl/Desktop/IIC/ADS_IIC_SEG_VGA/simulation/modelsim/SEG7_TOP_tb.vt(15): [TFMPC] - Missing connection for port 'key2'.
+# 
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run 1 sec

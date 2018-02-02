@@ -1,0 +1,66 @@
+library verilog;
+use verilog.vl_types.all;
+entity ADS_IIC_SEG_VGA is
+    generic(
+        CLK0_MUL        : integer := 1;
+        CLK0_DIV        : integer := 1;
+        CLK2_MUL        : integer := 1;
+        CLK2_DIV        : integer := 10;
+        OS              : vl_logic := Hi1;
+        MUX             : vl_logic_vector(0 to 2) := (Hi0, Hi0, Hi0);
+        PGA             : vl_logic_vector(0 to 2) := (Hi0, Hi0, Hi1);
+        MODE            : vl_logic := Hi1;
+        DR              : vl_logic_vector(0 to 2) := (Hi1, Hi1, Hi1);
+        COMP_MODE       : vl_logic := Hi0;
+        COMP_POL        : vl_logic := Hi0;
+        COMP_LAT        : vl_logic := Hi0;
+        COMP_QUE        : vl_logic_vector(0 to 1) := (Hi1, Hi1);
+        CLK1_MUL        : integer := 24;
+        CLK1_DIV        : integer := 11;
+        H_FRONT         : vl_logic_vector(0 to 11) := (Hi0, Hi0, Hi0, Hi0, Hi0, Hi0, Hi1, Hi1, Hi0, Hi0, Hi0, Hi0);
+        H_SYNC          : vl_logic_vector(0 to 11) := (Hi0, Hi0, Hi0, Hi0, Hi0, Hi1, Hi1, Hi1, Hi0, Hi0, Hi0, Hi0);
+        H_BACK          : vl_logic_vector(0 to 11) := (Hi0, Hi0, Hi0, Hi0, Hi1, Hi1, Hi1, Hi1, Hi1, Hi0, Hi0, Hi0);
+        H_ACT           : vl_logic_vector(0 to 11) := (Hi0, Hi1, Hi0, Hi1, Hi0, Hi0, Hi0, Hi0, Hi0, Hi0, Hi0, Hi0);
+        V_FRONT         : vl_logic_vector(0 to 11) := (Hi0, Hi0, Hi0, Hi0, Hi0, Hi0, Hi0, Hi0, Hi0, Hi0, Hi0, Hi1);
+        V_SYNC          : vl_logic_vector(0 to 11) := (Hi0, Hi0, Hi0, Hi0, Hi0, Hi0, Hi0, Hi0, Hi0, Hi0, Hi1, Hi1);
+        V_BACK          : vl_logic_vector(0 to 11) := (Hi0, Hi0, Hi0, Hi0, Hi0, Hi0, Hi1, Hi0, Hi0, Hi1, Hi1, Hi0);
+        V_ACT           : vl_logic_vector(0 to 11) := (Hi0, Hi1, Hi0, Hi0, Hi0, Hi0, Hi0, Hi0, Hi0, Hi0, Hi0, Hi0)
+    );
+    port(
+        clk             : in     vl_logic;
+        rst_n           : in     vl_logic;
+        key_in          : in     vl_logic;
+        key_seg         : in     vl_logic;
+        seg             : out    vl_logic_vector(7 downto 0);
+        sel             : out    vl_logic_vector(5 downto 0);
+        sda             : inout  vl_logic;
+        scl             : out    vl_logic;
+        hsync           : out    vl_logic;
+        vsync           : out    vl_logic;
+        DATA            : out    vl_logic_vector(15 downto 0)
+    );
+    attribute mti_svvh_generic_type : integer;
+    attribute mti_svvh_generic_type of CLK0_MUL : constant is 1;
+    attribute mti_svvh_generic_type of CLK0_DIV : constant is 1;
+    attribute mti_svvh_generic_type of CLK2_MUL : constant is 1;
+    attribute mti_svvh_generic_type of CLK2_DIV : constant is 1;
+    attribute mti_svvh_generic_type of OS : constant is 1;
+    attribute mti_svvh_generic_type of MUX : constant is 1;
+    attribute mti_svvh_generic_type of PGA : constant is 1;
+    attribute mti_svvh_generic_type of MODE : constant is 1;
+    attribute mti_svvh_generic_type of DR : constant is 1;
+    attribute mti_svvh_generic_type of COMP_MODE : constant is 1;
+    attribute mti_svvh_generic_type of COMP_POL : constant is 1;
+    attribute mti_svvh_generic_type of COMP_LAT : constant is 1;
+    attribute mti_svvh_generic_type of COMP_QUE : constant is 1;
+    attribute mti_svvh_generic_type of CLK1_MUL : constant is 1;
+    attribute mti_svvh_generic_type of CLK1_DIV : constant is 1;
+    attribute mti_svvh_generic_type of H_FRONT : constant is 1;
+    attribute mti_svvh_generic_type of H_SYNC : constant is 1;
+    attribute mti_svvh_generic_type of H_BACK : constant is 1;
+    attribute mti_svvh_generic_type of H_ACT : constant is 1;
+    attribute mti_svvh_generic_type of V_FRONT : constant is 1;
+    attribute mti_svvh_generic_type of V_SYNC : constant is 1;
+    attribute mti_svvh_generic_type of V_BACK : constant is 1;
+    attribute mti_svvh_generic_type of V_ACT : constant is 1;
+end ADS_IIC_SEG_VGA;

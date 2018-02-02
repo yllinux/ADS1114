@@ -1,0 +1,14 @@
+module ADS_IIC_SEG_VGA ( );
+    input 
+    
+    output 
+    
+    wire 
+    
+    
+    
+    
+    
+    assign
+    
+endmodule

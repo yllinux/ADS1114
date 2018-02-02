@@ -1,0 +1,16 @@
+Fitter Status : Successful - Sat Jan 20 22:05:24 2018
+Quartus II 64-Bit Version : 12.1 Build 177 11/07/2012 SJ Full Version
+Revision Name : ADS_IIC_SEG_VGA
+Top-level Entity Name : ADS_IIC_SEG_VGA
+Family : Cyclone IV E
+Device : EP4CE6F17C8
+Timing Models : Final
+Total logic elements : 2,292 / 6,272 ( 37 % )
+    Total combinational functions : 2,271 / 6,272 ( 36 % )
+    Dedicated logic registers : 313 / 6,272 ( 5 % )
+Total registers : 313
+Total pins : 38 / 180 ( 21 % )
+Total virtual pins : 0
+Total memory bits : 0 / 276,480 ( 0 % )
+Embedded Multiplier 9-bit elements : 0 / 30 ( 0 % )
+Total PLLs : 1 / 2 ( 50 % )

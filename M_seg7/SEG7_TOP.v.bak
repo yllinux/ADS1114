@@ -1,0 +1,29 @@
+module SEG7_TOP (clk, rst_n, data, seg, sel);
+
+    input           clk;
+    input           rst_n;
+    input   [15:0]  data;
+    
+    output  [7:0]   seg;     //段选
+    output  [5:0]   sel;     //位选
+    
+    wire clk_div;
+    wire [15:0] data;
+    
+    freq U_freq (
+        .clk        ( clk     ), 
+        .rst_n      ( rst_n   ), 
+        
+        .clk_div    ( clk_div )
+    );
+    
+    SEG7 U_SEG7 (
+        .clk        ( clk_div ), 
+        .rst_n      ( rst_n   ), 
+        .data       ( data    ),
+        
+        .seg        ( seg     ), 
+        .sel        ( sel     )
+    );
+    
+endmodule
